@@ -23,10 +23,10 @@ module.exports = {
   defaultNetwork: 'hardhat',
   networks: {
     hardhat: {},
-    kovan: {
-      url: `https://kovan.infura.io/v3/${infuraKey}`,
-      accounts: [`0x${privateKey}`]
-    }
+    // kovan: {
+    //   url: `https://kovan.infura.io/v3/${infuraKey}`,
+    //   accounts: [`0x${privateKey}`]
+    // }
   },
   solidity: "0.8.0",
 };
