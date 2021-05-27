@@ -20,8 +20,9 @@ task("accounts", "Prints the list of accounts", async () => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  defaultNetwork: 'kovan',
+  defaultNetwork: 'hardhat',
   networks: {
+    hardhat: {},
     kovan: {
       url: `https://kovan.infura.io/v3/${infuraKey}`,
       accounts: [`0x${privateKey}`]
